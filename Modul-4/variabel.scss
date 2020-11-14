@@ -1,0 +1,59 @@
+$mycolour: rgb(95, 223, 225);
+$bgcolour: #333;
+$number1: 20px;
+$align1: center;
+$textcolor: white;
+
+body{
+    margin: 0;
+}
+
+.logo{
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    float: left;
+    font-weight: bolder;
+    padding: 30px 50px;
+}
+.navbar{
+    background-color: &$bgcolour;
+    margin: 0;
+    background-color: #2c2c2c;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $bgcolour;
+    }
+    li{
+        float: right;
+        margin-right: $number1;
+    }
+    li a{
+        display: block;
+        text-decoration: none;
+        padding: 30px 50px;
+        color: white;
+        font-weight: bolder;
+        text-align: $align1;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li a:hover{
+        background-color: $mycolour;
+    }
+}
+
+.home{
+    padding: 20px;
+}
+
+.footer{
+    background-color: $bgcolour;
+    color: $textcolor;
+    padding: 20px;
+    text-align: center;
+}
