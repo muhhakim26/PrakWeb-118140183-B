@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 21 Nov 2020 pada 15.47
+-- Waktu pembuatan: 21 Nov 2020 pada 17.55
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.4.5
 
@@ -37,10 +37,10 @@ CREATE TABLE `jurusan` (
 --
 
 INSERT INTO `jurusan` (`ID_Jur`, `Nama_Jur`) VALUES
-('1234', 'Telekomunikasi'),
-('1235', 'Elka'),
-('1236', 'IT'),
-('1237', 'Elin');
+('1234', 'AGROTEKNOLOGI'),
+('1235', 'SAK'),
+('1236', 'DKV'),
+('1237', 'BIOLOGI');
 
 -- --------------------------------------------------------
 
@@ -60,7 +60,7 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`NRP`, `Nama`, `Alamat`, `ID_Jur`) VALUES
-(14, 'Akbar', 'Lampung', '1235');
+(14, 'Muhammad Abdullah Azzam', 'Malang', '1234');
 
 --
 -- Indexes for dumped tables
