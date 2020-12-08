@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript & DOM</title>
+</head>
+<body>
+
+<div class="apple">--------------------------------------------------
+	<br><b>1. Get Elements By Name</b><br>
+	<br>Input sesuatu : <br>
+	<br><input type="text" name="inputku">
+	<button onclick="myinput()">Enter</button>
+	<script>
+		function myinput() {
+			var x = document.getElementsByName("inputku")[0].tagName;
+			alert(document.getElementsByName("inputku")[0].value);
+		}
+	</script>
+</div>--------------------------------------------------<br>
+--------------------------------------------------
+
+<div class="2">
+	<b>2. Get Element By Class Name</b><br>
+	<br><div class="example">Dulu aku gendut, setalah ada tubes...</div><br>
+	<button onclick="mycoba()">confirm</button>
+	<br></br>
+	<script>
+		function mycoba() {
+			var x = document.getElementsByClassName("example");
+			x[0].innerHTML = "Sekarang aku jadi kurus :(";
+		}
+	</script>
+</div>--------------------------------------------------<br>
+--------------------------------------------------
+
+<div class="3">
+	<b>3. Get Element By Tagname</b><br>
+
+	<p>Mengkopi no 1 hingga no 3</p>
+
+	<button onclick="myFunction()">Tray It</button>
+
+	<p id="demo"></p>
+
+	<script>
+		function myFunction() {
+  		var x = document.getElementsByTagName("*");
+  		document.getElementById("demo").innerHTML = x[3].innerHTML;
+	}
+	</script>
+</div>--------------------------------------------------<br>
+--------------------------------------------------
+
+<div class="4">
+	<b>4. Get Element By TagNameNS</b><br>
+	<br><button onclick="getAllParaElems()">Menampilkan Jumlah P</button>
+	<script>
+		function getAllParaElems() {
+			var names = document.getElementsByTagNameNS("http://www.w3.org/1999/xhtml", "p");
+			var num = names.length;
+			alert("Ada " + num + " tag p dalam dokumen ini");
+		}
+	</script>
+</div>--------------------------------------------------<br>
+--------------------------------------------------
+
+<div class="buah">
+	<b>5. query Selector</b>
+	<p>Click the button to add a background color</p>
+
+	<button onclick="mycolor()">Try it</button>
+
+	<script>
+		function mycolor() {
+  			document.querySelector(".buah").style.backgroundColor = "red";
+  		}
+	</script>
+</div>--------------------------------------------------<br>
+--------------------------------------------------
+
+<div class="6">
+	<b>6. query Selector All</b><br>
+	<p class="warnain">Hai!</p>
+	<p class="warnain">Hai!</p>
+	<button onclick="mywarna()">Try it</button>
+	<script>
+		function mywarna() {
+  			var x, i;
+ 			 x = document.querySelectorAll(".warnain");
+  		for (i = 0; i < x.length; i++) {
+    		x[i].style.backgroundColor = "red";
+    	}
+    }
+	</script>
+</div>--------------------------------------------------
+
+
+
+</body>
+</html>

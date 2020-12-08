@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<biodata>
+    <nama>
+        <depan>Muhammad Abdul</depan>
+        <belakang>Hakim</belakang>
+    </nama>
+    <jeniskelamin>Laki-laki</jeniskelamin>
+    <status>Mahasiswa</status>
+    <saudara>
+        <nama>Azzam</nama>
+    </saudara>
+    <orangtua>
+        <nama>Suharno</nama>
+    </orangtua>
+    <hobby>
+        <hobi>Fotografi</hobi>
+        <hobi>Minum Kopi</hobi>
+    </hobby>
+    <alamat>
+        <desa>Margorejo</desa>
+        <kecamatan>Metro Selatan</kecamatan>
+        <kebupaten>Kota Metro</kebupaten>
+    </alamat>
+    <sosialmedia>
+        <instagram>m.a.hakim</instagram>
+        <github>muhhakim26</github>
+        <line>@m.a.hakim</line>
+        <whatsapp>081271208338</whatsapp>
+    </sosialmedia>
+</biodata>

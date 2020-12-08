@@ -1,0 +1,30 @@
+{
+    "biodata" : {
+       "nama" : {
+           "depan" : "Muhammad Abdul",
+           "belakang" : "Hakim"
+       },
+       "jeniskelamin" : "Laki-laki",
+       "status" : "Mahasiswa",
+       "saudara" : {
+           "nama" : "Azzam"
+       },
+       "orangtua" : {
+           "nama" : "Suharno"
+       },
+       "hobby" : {
+           "hobi" : ["Fotografi","Minum Kopi"]
+       },
+       "alamat" : {
+           "desa" : "Margorejo",
+           "kecamatan" : "Metro Selatan",
+           "kabupaten" : "Kota Metro",
+       },
+       "sosialmedia" : {
+           "instagram" : "m.a.hakim",
+           "github" : "muhhakim26",
+           "line" : "@m.a.hakim",
+           "whatsapp" : "081271208338"
+       }
+    }
+}
